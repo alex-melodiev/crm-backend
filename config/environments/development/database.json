@@ -5,11 +5,11 @@
       "connector": "strapi-hook-bookshelf",
       "settings": {
         "client": "mysql",
-        "host": "127.0.0.1",
-        "port": 3306,
-        "database": "strapicrm",
-        "username": "root",
-        "password": ""
+        "host": "213.159.215.124",
+        "port": 3310,
+        "database": "rentalremote_db",
+        "username": "rentalremote_db",
+        "password": "rentalremote_db"
       },
       "options": {
         "ssl": false
