@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rooms",
+      "handler": "Rooms.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rooms/count",
+      "handler": "Rooms.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rooms/:id",
+      "handler": "Rooms.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rooms",
+      "handler": "Rooms.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rooms/:id",
+      "handler": "Rooms.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rooms/:id",
+      "handler": "Rooms.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rooms/:id/relationships/:relation",
+      "handler": "Rooms.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rooms/:id/relationships/:relation",
+      "handler": "Rooms.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rooms/:id/relationships/:relation",
+      "handler": "Rooms.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

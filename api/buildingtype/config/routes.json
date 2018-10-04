@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/buildingtype",
+      "handler": "Buildingtype.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/buildingtype/count",
+      "handler": "Buildingtype.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/buildingtype/:id",
+      "handler": "Buildingtype.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/buildingtype",
+      "handler": "Buildingtype.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/buildingtype/:id",
+      "handler": "Buildingtype.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/buildingtype/:id",
+      "handler": "Buildingtype.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/buildingtype/:id/relationships/:relation",
+      "handler": "Buildingtype.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/buildingtype/:id/relationships/:relation",
+      "handler": "Buildingtype.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/buildingtype/:id/relationships/:relation",
+      "handler": "Buildingtype.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

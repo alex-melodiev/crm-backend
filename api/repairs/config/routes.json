@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/repairs",
+      "handler": "Repairs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/repairs/count",
+      "handler": "Repairs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/repairs/:id",
+      "handler": "Repairs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/repairs",
+      "handler": "Repairs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/repairs/:id",
+      "handler": "Repairs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/repairs/:id",
+      "handler": "Repairs.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/repairs/:id/relationships/:relation",
+      "handler": "Repairs.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/repairs/:id/relationships/:relation",
+      "handler": "Repairs.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/repairs/:id/relationships/:relation",
+      "handler": "Repairs.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

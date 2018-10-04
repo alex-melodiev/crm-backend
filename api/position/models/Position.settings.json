@@ -1,0 +1,104 @@
+{
+  "connection": "default",
+  "collectionName": "position",
+  "info": {
+    "name": "position",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "guide": {
+      "default": "guide",
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "default": "",
+      "type": "integer",
+      "required": true
+    },
+    "application_date": {
+      "default": "",
+      "type": "date"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "currency": {
+      "model": "currency",
+      "dominant": true
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "country": {
+      "model": "country"
+    },
+    "city": {
+      "model": "city"
+    },
+    "region": {
+      "model": "region"
+    },
+    "material": {
+      "model": "material"
+    },
+    "service": {
+      "model": "service"
+    },
+    "contacts": {
+      "default": "",
+      "type": "string"
+    },
+    "status": {
+      "default": false,
+      "type": "boolean"
+    },
+    "email": {
+      "default": "",
+      "type": "email"
+    },
+    "rooms": {
+      "model": "rooms"
+    },
+    "stage": {
+      "default": "",
+      "type": "integer"
+    },
+    "stages_count": {
+      "default": "",
+      "type": "integer"
+    },
+    "change_status_date": {
+      "default": "",
+      "type": "date"
+    },
+    "area": {
+      "default": "",
+      "type": "integer"
+    },
+    "free_date": {
+      "default": "",
+      "type": "date"
+    },
+    "contact_date": {
+      "default": "",
+      "type": "date"
+    },
+    "details": {
+      "default": "",
+      "type": "string"
+    },
+    "repairs": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

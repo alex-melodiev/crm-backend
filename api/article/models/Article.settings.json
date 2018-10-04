@@ -1,0 +1,42 @@
+{
+  "connection": "default",
+  "collectionName": "article",
+  "info": {
+    "name": "article",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "default": "",
+      "type": "text",
+      "required": true
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "published_date": {
+      "default": "",
+      "type": "date"
+    },
+    "Published": {
+      "default": true,
+      "type": "boolean"
+    },
+    "sdfsdf": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}

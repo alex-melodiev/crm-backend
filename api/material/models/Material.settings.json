@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "materials",
+  "info": {
+    "name": "material",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "strapi-plugin-email@alpha",
+        "scope": null,
+        "escapedName": "strapi-plugin-email",
+        "name": "strapi-plugin-email",
+        "rawSpec": "alpha",
+        "spec": "alpha",
+        "type": "tag"
+      },
+      "E:\\nodejsprojects\\crm-backend"
+    ]
+  ],
+  "_from": "strapi-plugin-email@alpha",
+  "_id": "strapi-plugin-email@3.0.0-alpha.14",
+  "_inCache": true,
+  "_location": "/strapi-plugin-email",
+  "_nodeVersion": "10.8.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/strapi-plugin-email_3.0.0-alpha.14_1535381279326_0.5391741344358267"
+  },
+  "_npmUser": {
+    "name": "lauriejim",
+    "email": "j.laurie6993@gmail.com"
+  },
+  "_npmVersion": "5.1.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "strapi-plugin-email@alpha",
+    "scope": null,
+    "escapedName": "strapi-plugin-email",
+    "name": "strapi-plugin-email",
+    "rawSpec": "alpha",
+    "spec": "alpha",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.0.0-alpha.14.tgz",
+  "_shasum": "47597ce45cac1bfc9775b1fc796ee75d4b471b13",
+  "_shrinkwrap": null,
+  "_spec": "strapi-plugin-email@alpha",
+  "_where": "E:\\nodejsprojects\\crm-backend",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "dependencies": {
+    "strapi-email-sendmail": "3.0.0-alpha.14"
+  },
+  "description": "This is the description of the plugin.",
+  "devDependencies": {
+    "react-copy-to-clipboard": "5.0.1",
+    "strapi-helper-plugin": "3.0.0-alpha.14"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-ndW3XzTVeVFWm8Ww8cfRloWYyW6TNYnvG/4BCYA9GRB93xTGpg7k1P5UepL0ftfOHuJghGzBFZDDRvEquPA+Og==",
+    "shasum": "47597ce45cac1bfc9775b1fc796ee75d4b471b13",
+    "tarball": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.0.0-alpha.14.tgz",
+    "fileCount": 44,
+    "unpackedSize": 871484,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbhA8fCRA9TVsSAnZWagAAEvoQAIrtShUQedCtGgbWHo7c\nnvJIbwn2Q/tLmm7plGbE9mZ3ZQgONv4QsLsBK0+Kj1EZTy+4+09kGaZ/z4Mi\nwpm3aTe+xLDL5CxVa37kRhXOcyLI3WT+Wvhg7j6WgpZz9Ygk6r0u3ihsgOh0\nqRFmTen/apT3MmhgwlFQXbT3zA5rf9n8gm15ISFxVgHcvfMOZjauiTXNEagg\nM6+CdcwHDbgw2LcX7nLcZBO8NIcoarzw0ztFvma2irTlFV+EBviKFjXHt2Ut\nP3Duw0mvZqvz6F4Te0DRKz++JdZ+BmdQ5jTcgDBFfDPyfmUCjjMjVzXV9qdb\nKYeNE+ieV4kpRaYnvNC78ElqBOIZD/kh1/kqiLW/y3RpD/CKZ0qXkutFz+g2\ne4Wa7ZCOBqvwDTyDhsIedYq8ZrfGssFfyg8xbayvTn382JFsFJ61UDqgSy5D\nR66dNWR/d7TAJW8XQoedaPVcQsbGyzsqkkMQGZV9zvuGWDNfNvf8o9Lpsd+X\nveaJKUa3hO3W/htBUJYOBisAFW6M0qz/irE0VMGEb+0dGhwJAc8rtPsLGNh4\nTnXOyzMF2u8+f+qUZNAcgJbxOaQ9mAaMOouWRnqmVb7Sa8Nc8D24vNaQlA7A\nU2lD0s1UnHJPSKBJ3OBlkVFminY8C28txTL+Nk5OgtlO3vajqBmYkYuLGSvL\nTjoM\r\n=DwYl\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.0.0"
+  },
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ],
+  "name": "strapi-plugin-email",
+  "optionalDependencies": {},
+  "readme": "# Strapi plugin",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "analyze": "node ./node_modules/strapi-helper-plugin/lib/internals/scripts/analyze.js",
+    "analyze:clean": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/rimraf stats.json",
+    "build": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=production node node_modules/strapi-helper-plugin/node_modules/.bin/webpack --config node_modules/strapi-helper-plugin/lib/internals/webpack/webpack.prod.babel.js --color -p --progress",
+    "build:clean": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/rimraf admin/build",
+    "build:dev": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=development node ./node_modules/strapi-helper-plugin/node_modules/.bin/webpack --config node_modules/strapi-helper-plugin/lib/internals/webpack/webpack.prod.babel.js --color -p --progress",
+    "generate": "node ./node_modules/plop/plop.js --plopfile node_modules/strapi-helper-plugin/lib/internals/generators/index.js",
+    "preanalyze": "npm run analyze:clean",
+    "prebuild": "npm run build:clean",
+    "prepublishOnly": "IS_MONOREPO=true npm run build",
+    "prettier": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/prettier --single-quote --trailing-comma es5 --write \"{admin,__{tests,mocks}__}/**/*.js\"",
+    "start": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=development node ./node_modules/strapi-helper-plugin/lib/server",
+    "test": "echo \"Error: no test specified\""
+  },
+  "strapi": {
+    "name": "Email",
+    "icon": "paper-plane",
+    "description": "email.plugin.description"
+  },
+  "version": "3.0.0-alpha.14",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">= 9.0.0",
+        "npm": ">= 5.0.0"
+      },
+      "pkgid": "strapi-plugin-email@3.0.0-alpha.14"
+    },
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">= 9.0.0",
+        "npm": ">= 5.0.0"
+      },
+      "pkgid": "strapi-plugin-email@3.0.0-alpha.14"
+    }
+  ]
+}
